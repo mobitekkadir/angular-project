@@ -14,7 +14,7 @@ export class AppComponent {
 
   addCountToAllDatas() {
     this.dataList.forEach((element, index, theArray) => {
-      theArray[index] = element + 5;
+      theArray[index] = element + 7;
     });
     if (this.colorParam != 'green')
       this.colorParam = 'green';
