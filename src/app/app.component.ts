@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+
+  dataList = [1, 2, 3, 4, 5, 6];
+
+  colorParam = 'red';
+
+  addCountToAllDatas() {
+    this.dataList.forEach((element, index, theArray) => {
+      theArray[index] = element + 5;
+    });
+    if (this.colorParam != 'green')
+      this.colorParam = 'green';
+    else
+      this.colorParam = 'yellow';
+  }
+
+
+
 }
