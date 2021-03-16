@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  angular-docker:
+    container_name: angular-project
+    build: .
+    ports:
+      - '4500:80'
