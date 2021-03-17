@@ -19,7 +19,7 @@ export class AppComponent {
     if (this.colorParam != 'green')
       this.colorParam = 'green';
     else
-      this.colorParam = 'yellow';
+      this.colorParam = 'purple';
   }
 
 
